@@ -1,0 +1,102 @@
+services:
+  frontend:
+    build: ./frontend
+    env_file: .env.example
+    environment:
+      FRONTEND_PORT: ${FRONTEND_PORT:-5173}
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    volumes:
+      - ./frontend:/app
+      - frontend_node_modules:/app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - neurolearn
+
+  backend:
+    build: ./backend
+    env_file: .env.example
+    environment:
+      BACKEND_PORT: ${BACKEND_PORT:-4000}
+      SKILLS_TRAINER_URL: ${SKILLS_TRAINER_URL:-http://skills-trainer:8001}
+      ASSESSMENT_ENGINE_URL: ${ASSESSMENT_ENGINE_URL:-http://assessment-engine:8002}
+      CONTENT_ENGINE_URL: ${CONTENT_ENGINE_URL:-http://content-engine:8003}
+      DIGITAL_TWIN_URL: ${DIGITAL_TWIN_URL:-http://digital-twin:8004}
+      DATABASE_URL: ${DATABASE_URL:-postgresql://neurolearn:neurolearn@postgres:5432/neurolearn}
+      JWT_SECRET: ${JWT_SECRET:-development-placeholder}
+    ports:
+      - "${BACKEND_PORT:-4000}:4000"
+    volumes:
+      - ./backend:/app
+      - backend_node_modules:/app/node_modules
+    depends_on:
+      - postgres
+      - skills-trainer
+      - assessment-engine
+      - content-engine
+      - digital-twin
+    networks:
+      - neurolearn
+
+  skills-trainer:
+    build: ./ai-services/skills-trainer
+    env_file: .env.example
+    ports:
+      - "${SKILLS_TRAINER_PORT:-8001}:8001"
+    volumes:
+      - ./ai-services/skills-trainer:/app
+    networks:
+      - neurolearn
+
+  assessment-engine:
+    build: ./ai-services/assessment-engine
+    env_file: .env.example
+    ports:
+      - "${ASSESSMENT_ENGINE_PORT:-8002}:8002"
+    volumes:
+      - ./ai-services/assessment-engine:/app
+    networks:
+      - neurolearn
+
+  content-engine:
+    build: ./ai-services/content-engine
+    env_file: .env.example
+    ports:
+      - "${CONTENT_ENGINE_PORT:-8003}:8003"
+    volumes:
+      - ./ai-services/content-engine:/app
+    networks:
+      - neurolearn
+
+  digital-twin:
+    build: ./ai-services/digital-twin
+    env_file: .env.example
+    ports:
+      - "${DIGITAL_TWIN_PORT:-8004}:8004"
+    volumes:
+      - ./ai-services/digital-twin:/app
+    networks:
+      - neurolearn
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: neurolearn
+      POSTGRES_USER: neurolearn
+      POSTGRES_PASSWORD: neurolearn
+    ports:
+      - "${DATABASE_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - neurolearn
+
+networks:
+  neurolearn:
+    driver: bridge
+
+volumes:
+  frontend_node_modules:
+  backend_node_modules:
+  postgres_data:

@@ -1,0 +1,27 @@
+# Default ownership
+* @lahiru-placeholder
+
+# Component ownership
+/frontend/src/features/skills-trainer/ @member1
+/backend/src/modules/skills-trainer/ @member1
+/ai-services/skills-trainer/ @member1
+/frontend/src/features/assessment-engine/ @member2
+/backend/src/modules/assessment-engine/ @member2
+/ai-services/assessment-engine/ @member2
+/frontend/src/features/content-engine/ @member3
+/backend/src/modules/content-engine/ @member3
+/ai-services/content-engine/ @member3
+/frontend/src/features/digital-twin/ @member4
+/backend/src/modules/digital-twin/ @member4
+/ai-services/digital-twin/ @member4
+
+# Shared code, documentation, and root configuration
+/frontend/src/shared/ @lahiru-placeholder
+/backend/src/common/ @lahiru-placeholder
+/docs/ @lahiru-placeholder
+/.github/ @lahiru-placeholder
+/.gitignore @lahiru-placeholder
+/.env.example @lahiru-placeholder
+/docker-compose.yml @lahiru-placeholder
+/README.md @lahiru-placeholder
+/CODEOWNERS @lahiru-placeholder
