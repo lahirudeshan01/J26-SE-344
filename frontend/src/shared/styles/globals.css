@@ -1,0 +1,118 @@
+/* NeuroLearn AI design tokens */
+:root {
+  --color-canvas: 255 255 255;
+  --color-elevated: 245 245 247;
+  --color-surface: 255 255 255;
+  --color-ink: 29 29 31;
+  --color-ink-muted: 110 110 115;
+  --color-ink-subtle: 142 142 147;
+  --color-accent: 10 132 255;
+  --color-accent-indigo: 94 92 230;
+  --color-accent-soft: rgba(10, 132, 255, 0.1);
+  --color-danger: 255 59 48;
+  --color-line: rgba(0, 0, 0, 0.07);
+  --color-line-strong: rgba(0, 0, 0, 0.12);
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-float: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06),
+    0 24px 48px rgba(0, 0, 0, 0.04);
+  --shadow-pop: 0 0 0 0.5px rgba(0, 0, 0, 0.06), 0 12px 32px rgba(0, 0, 0, 0.12);
+  --accent-gradient: linear-gradient(135deg, #0a84ff 0%, #5e5ce6 100%);
+  color-scheme: light;
+}
+.dark {
+  --color-canvas: 0 0 0;
+  --color-elevated: 28 28 30;
+  --color-surface: 28 28 30;
+  --color-ink: 245 245 247;
+  --color-ink-muted: 152 152 157;
+  --color-ink-subtle: 110 110 115;
+  --color-accent-soft: rgba(10, 132, 255, 0.18);
+  --color-danger: 255 69 58;
+  --color-line: rgba(255, 255, 255, 0.08);
+  --color-line-strong: rgba(255, 255, 255, 0.14);
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-float: 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 32px rgba(0, 0, 0, 0.45);
+  --shadow-pop: 0 0 0 0.5px rgba(255, 255, 255, 0.08), 0 16px 40px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, 'Noto Sans Sinhala', -apple-system, BlinkMacSystemFont, 'SF Pro Display',
+    system-ui, sans-serif;
+  background: rgb(var(--color-canvas));
+  color: rgb(var(--color-ink));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+.bg-accent-gradient {
+  background-image: var(--accent-gradient);
+}
+.text-accent-gradient {
+  background-image: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Subtle film grain to set the sidebar apart from the page */
+.sidebar-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.sidebar-grain > * {
+  position: relative;
+}
+/* Faded divider: fades out at both ends */
+.sidebar-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(var(--color-ink) / 0.18), transparent);
+}
+/* Soft vertical tint fading toward the bottom */
+.sidebar-grain {
+  background-image: linear-gradient(180deg, rgb(var(--color-ink) / 0.045) 0%, rgb(var(--color-ink) / 0) 60%);
+}
+/* Quiet, Apple-like scrollbars */
+.scroll-quiet {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+.scroll-quiet::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-quiet::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.sidebar-scroll {
+  scrollbar-width: auto;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+.sidebar-scroll::-webkit-scrollbar {
+  width: 14px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
