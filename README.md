@@ -5,7 +5,6 @@ An AI-powered e-learning platform for Sri Lankan A/L students studying Chemistry
 [![Frontend CI](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/frontend-ci.yml/badge.svg?branch=main)](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/frontend-ci.yml)
 [![Backend CI](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/backend-ci.yml/badge.svg?branch=main)](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/backend-ci.yml)
 [![AI Services CI](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/ai-services-ci.yml/badge.svg?branch=main)](https://github.com/lahirudeshan01/J26-SE-344/actions/workflows/ai-services-ci.yml)
-[![License](https://img.shields.io/badge/license-%5BLICENSE%5D-lightgrey)](#acknowledgements-and-license)
 ![Node.js 22](https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 
@@ -83,12 +82,12 @@ A student uses the React frontend, which sends requests to the Node.js API gatew
 
 ## Team and component ownership
 
-| Name | Student ID | Component | GitHub |
+| Name | Student ID | Component 
 | --- | --- | --- | --- |
-| [Gamage L D] (Team Leader) | [IT23224452] | AI Virtual Practical Skills Trainer | [@github] |
-| [Ransiluni W A P] | [IT23143654] | Adaptive Assessment and Exam Prediction Engine | [@github] |
-| [W W S K Weerasinghe] | [IT23298576] | Curriculum-Aware Content Generation Engine (RAG) | [@github] |
-| [P G R D Hettiarachchi] | [IT23297654] | Student Digital Twin | [@github] |
+| Gamage L D (Team Leader) | IT23224452 | AI Virtual Practical Skills Trainer | 
+| Ransiluni W A P | IT23143654 | Adaptive Assessment and Exam Prediction Engine | 
+| W W S K Weerasinghe | IT23298576 | Curriculum-Aware Content Generation Engine (RAG) | 
+| P G R D Hettiarachchi | IT23297654 | Student Digital Twin 
 
 **Supervisors**
 
@@ -455,15 +454,4 @@ NeuroLearn AI is an academic project developed as a final-year group research pr
 
 The team acknowledges the guidance of supervisors Archchana Sindhujan, Eishan Weerasinghe, and Hansi De Silva.
 
-**License:** [LICENSE]
 
-### Placeholders to complete
-
-- `[MEMBER 1 FULL NAME]` (once), `[MEMBER 2 FULL NAME]` (once), `[MEMBER 3 FULL NAME]` (once), and `[MEMBER 4 FULL NAME]` (once)
-- `[ID]` (4 occurrences)
-- `[@github]` (4 occurrences)
-- `[ROLE]` (3 occurrences)
-- `[VERSION]` (4 occurrences)
-- `[START DATE]` (once)
-- `[MEMBER NAME]` (3 occurrences)
-- `[LICENSE]` (twice: badge and license field)
