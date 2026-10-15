@@ -59,7 +59,7 @@ function expandFractions(input: string): string {
         s = s.slice(0, idx) + num + s.slice(afterNum);
       } else {
         const [den, afterDen] = readGroup(s, afterNum);
-        const wrap = (x: string) => /[\s+\-]/.test(x.trim()) ? `(${x.trim()})` : x.trim();
+        const wrap = (x: string) => /[\s+-]/.test(x.trim()) ? `(${x.trim()})` : x.trim();
         s = `${s.slice(0, idx)}${wrap(num)} / ${wrap(den)}${s.slice(afterDen)}`;
       }
     }

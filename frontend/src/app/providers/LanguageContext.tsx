@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React, { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { Language } from '../../shared/types/index';
 
