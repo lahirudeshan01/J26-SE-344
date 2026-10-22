@@ -38,6 +38,13 @@ p('logic-gates', 'physics', 'Investigation of the truth tables of simple logic g
 
 p('standard-solution', 'chemistry', 'Preparation of a standard solution', 'ප්‍රමිති ද්‍රාවණයක් සකස් කිරීම'),
 p('acid-base', 'chemistry', 'Acid-base titrations', 'අම්ල-භෂ්ම පරිමාමිතික විශ්ලේෂණය'),
+p(
+  'steam-distillation',
+  'chemistry',
+  'Extraction of essential oils by steam distillation',
+  'Extraction of essential oils by steam distillation',
+  true
+),
 p('redox', 'chemistry', 'Redox titrations (Permanganate/Iodometric titrations)', 'රෙඩොක්ස් පරිමාමිතික විශ්ලේෂණය (පර්මැන්ගනේට් / අයඩොමිතික පරීක්ෂණ)'),
 p('salt-analysis', 'chemistry', 'Qualitative analysis of inorganic salts (Identification of cations and anions)', 'අකාබනික ලවණවල ගුණාත්මක විශ්ලේෂණය (කැටායන සහ ඇනායන හඳුනාගැනීම)'),
 p('neutralization', 'chemistry', 'Determination of enthalpy change of neutralization', 'උදාසීනීකරණ එන්තල්පි වෙනස්වීම නිර්ණය කිරීම'),

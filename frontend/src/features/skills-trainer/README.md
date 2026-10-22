@@ -1,11 +1,11 @@
 ﻿# Skills Trainer (Lab Studio)
 
-Frontend feature for AI-powered practical skills training. Students perform physics/chemistry practicals on an interactive 2D bench.
+Frontend feature for AI-powered practical skills training. Students perform physics/chemistry practicals through an interactive 2D bench or a guided lab procedure.
 
 ## Requirements
 
 1. **2D SVG bench** – drag apparatus, hang masses, read scales, record values.
-2. **Action events only** – every interaction emits an action event (`drag_start`, `drop`, `nudge`, `read`, `record`, `plot`, `submit_gradient`, `submit_mass`, `reset`). The UI never decides correctness; events are forwarded to the assessment engine, which is the sole judge. The step panel only reflects which actions have happened.
+2. **Action events only** – every interaction emits an action event (`drag_start`, `drop`, `nudge`, `read`, `record`, `plot`, `submit_gradient`, `submit_mass`, `action`, `reset`). The UI never decides correctness; events are forwarded to the assessment engine, which is the sole judge. Step completion only reflects which actions have happened.
 3. **i18n** – the step panel and all lab strings come from `shared/i18n/skillsTrainerStrings.ts` (English and Sinhala, switched via `LanguageContext`).
 4. **Design** – Apple-like, uses the shared design tokens (`canvas`, `elevated`, `accent`, `line`, `shadow-soft`) and supports light/dark.
 
@@ -35,5 +35,6 @@ Events are available through `labEventBus.subscribe()`; sending them to the back
 ## TODO
 
 - [x] Moments practical UI
+- [x] Steam-distillation practical (Experiment 42) as an interactive virtual bench: drag-and-drop glassware, heater/tap controls, timed simulation across Week 01/02 (Sinhala strings pending)
 - [ ] Send events to the backend assessment API
 - [ ] More practicals (registry of lab definitions)

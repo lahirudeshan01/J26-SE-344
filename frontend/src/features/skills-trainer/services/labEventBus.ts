@@ -7,6 +7,7 @@ export type LabActionType =
   | 'plot'
   | 'submit_gradient'
   | 'submit_mass'
+  | 'action'
   | 'reset';
 
 export interface LabActionEvent {

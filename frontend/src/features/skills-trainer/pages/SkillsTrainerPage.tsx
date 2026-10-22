@@ -3,6 +3,7 @@ import { ChevronRight } from 'lucide-react';
 import { useLanguage } from '../../../app/providers/LanguageContext';
 import { Breadcrumb } from '../components/Breadcrumb';
 import { MomentsLabView } from '../components/MomentsLabView';
+import { SteamDistillationLabView } from '../components/SteamDistillationLabView';
 import { practicals, subjects, type LabSubject } from '../data/practicals';
 import { useLabT } from '../hooks/useLabT';
 
@@ -23,11 +24,24 @@ export default function SkillsTrainerPage() {
     return (
       <MomentsLabView
         crumbs={[
-        { label: t('studioTitle'), onClick: home },
-        { label: subjectLabel, onClick: () => setPracticalId(null) },
-        { label: t('labTitle') }]} />);
+          { label: t('studioTitle'), onClick: home },
+          { label: subjectLabel, onClick: () => setPracticalId(null) },
+          { label: t('labTitle') },
+        ]}
+      />
+    );
+  }
 
-
+  if (practicalId === 'steam-distillation') {
+    return (
+      <SteamDistillationLabView
+        crumbs={[
+          { label: t('studioTitle'), onClick: home },
+          { label: subjectLabel, onClick: () => setPracticalId(null) },
+          { label: 'Extraction of essential oils by steam distillation' },
+        ]}
+      />
+    );
   }
 
   return (
