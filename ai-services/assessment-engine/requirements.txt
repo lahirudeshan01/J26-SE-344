@@ -3,3 +3,7 @@ uvicorn
 pydantic
 pytest
 httpx
+joblib
+pandas
+numpy
+scikit-learn
