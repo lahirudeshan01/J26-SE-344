@@ -1,4 +1,4 @@
-import type { LucideIcon } from 'lucide-react';
+﻿import type { LucideIcon } from 'lucide-react';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 export type ResolvedTheme = 'light' | 'dark';
@@ -65,184 +65,144 @@ export interface UserProfile {
   initials: string;
 }
 
-export type AssessmentSubjectId = 'physics' | 'chemistry' | 'biology';
-
+export type PopoverPlacement = 'top-start' | 'top-end' | 'bottom-start' | 'bottom-end' | 'right-end';
+export type TooltipSide = 'right' | 'top' | 'bottom';
+// Assessment Engine types
 export interface AssessmentSubjectSummary {
-  id: AssessmentSubjectId;
-  name: string;
-  description: string;
-  syllabusVersion: string;
-  questionCount: number;
-  topicCount: number;
+    id: string;
+    name: string;
+    description?: string;
+    questionCount: number;
+    topicCount?: number;
+    syllabusVersion?: string;
+    [key: string]: unknown;
 }
 
-export type QuestionOption = string | { label?: string; text: string };
+export interface QuestionOption {
+    id?: string;
+    value?: string;
+    label?: string;
+    text?: string;
+    [key: string]: unknown;
+}
 
 export interface AssessmentQuestion {
-  questionId: string;
-  subject: AssessmentSubjectId;
-  topicId: string;
-  topicName: string;
-  mainTopicId?: string | null;
-  mainTopicName?: string | null;
-  subtopicId?: string | null;
-  subtopicName?: string | null;
-  questionText: string;
-  options: QuestionOption[];
-  maxMarks: number;
-  expertDifficulty: number;
-  difficultyLevel?: string;
-  sourceReference: string;
-  syllabusVersion: string;
-  imagePath?: string | null;
+    questionId: string;
+    subject?: string;
+    questionText?: string;
+    question?: string;
+    prompt?: string;
+    options: QuestionOption[];
+    maxMarks?: number;
+    marks?: number;
+    topicId?: string;
+    topicName?: string;
+    mainTopicName?: string;
+    subtopicName?: string;
+    imagePath?: string | null;
+    expertDifficulty?: number;
+    difficultyLevel?: string;
+    [key: string]: unknown;
 }
 
 export interface AssessmentSession {
-  sessionId: string;
-  studentId: string;
-  subject: AssessmentSubjectId;
-  status: 'active' | 'completed';
-  targetDifficulty: number;
-  abilityEstimate?: number;
-  currentQuestionId: string | null;
-  askedQuestionIds: string[];
-  startedAt: string;
-  updatedAt: string;
-  consentVersion: string;
-  mainTopicId?: string | null;
-  subtopicId?: string | null;
+    sessionId: string;
+    studentId?: string;
+    subject?: string;
+    status?: string;
+    askedQuestionIds: string[];
+    targetDifficulty: number;
+    [key: string]: unknown;
 }
 
 export interface ChemistrySubtopic {
-  id: string;
-  name: string;
-  questionCount: number;
+    id: string;
+    name: string;
+    questionCount: number;
+    [key: string]: unknown;
 }
 
 export interface ChemistryTopic {
-  id: string;
-  name: string;
-  unitNumber: number;
-  questionCount: number;
-  subtopics: ChemistrySubtopic[];
+    id: string;
+    name: string;
+    questionCount: number;
+    subtopics: ChemistrySubtopic[];
+    [key: string]: unknown;
 }
 
 export interface ChemistrySyllabusCategory {
-  id: string;
-  name: string;
-  description: string;
-  questionCount: number;
-  topics: ChemistryTopic[];
-}
-
-export interface ChemistryTopicsResponse {
-  subject: string;
-  totalQuestions: number;
-  categories: ChemistrySyllabusCategory[];
-}
-
-export interface AssessmentAttempt {
-  attemptId: string;
-  sessionId: string;
-  questionId: string;
-  selectedAnswer: string;
-  score: number;
-  maxMarks: number;
-  timeTakenSeconds: number;
-  timestamp: string;
-  isCorrect: boolean;
-  thetaBefore?: number | null;
-  thetaAfter?: number | null;
-  duplicate?: boolean;
-}
-
-export interface TopicPerformanceItem {
-  topicId: string;
-  topicName: string;
-  attempted: number;
-  correct: number;
-  accuracy: number | null;
-  score: number;
-  maxMarks: number;
-  questionsSeen: number;
-}
-
-export interface AssessmentResults {
-  session: AssessmentSession;
-  summary: {
-    totalScore: number;
-    maxScore: number;
-    attemptedCount: number;
-    correctCount: number;
-    accuracy: number | null;
-    abilityEstimate?: number;
-    completed: boolean;
-  };
-  attemptedQuestions: Array<{
-    attemptId: string;
-    questionId: string;
-    topicId: string | null;
-    topicName: string | null;
-    selectedAnswer: string;
-    score: number;
-    maxMarks: number;
-    isCorrect: boolean;
-    timeTakenSeconds: number;
-    timestamp: string;
-    thetaBefore?: number | null;
-    thetaAfter?: number | null;
-  }>;
-  topicPerformance: TopicPerformanceItem[];
-  message: string;
+    id: string;
+    name: string;
+    description?: string;
+    questionCount: number;
+    topics: ChemistryTopic[];
+    [key: string]: unknown;
 }
 
 export interface ProgressSummary {
-  studentId: string;
-  totalSessions: number;
-  totalAttempts: number;
-  completedSessions: number;
-  sessionSummaries: Array<{
-    sessionId: string;
-    subject: AssessmentSubjectId;
-    startedAt: string;
-    status: string;
+    totalSessions: number;
+    totalAttempts: number;
+    completedSessions: number;
+    [key: string]: unknown;
+}
+
+export interface TopicPerformance {
+    topicId: string;
+    topicName: string;
+    correct: number;
+    attempted: number;
     score: number;
-    maxScore: number;
+    maxMarks: number;
     accuracy: number | null;
-  }>;
-  topicPerformance: TopicPerformanceItem[];
+}
+
+export interface AssessmentResults {
+    session: AssessmentSession;
+    summary: {
+        totalScore?: number;
+        maxScore?: number;
+        attemptedCount?: number;
+        correctCount?: number;
+        accuracy?: number | null;
+        abilityEstimate?: number;
+        completed?: boolean;
+        [key: string]: unknown;
+    };
+    attemptedQuestions?: unknown[];
+    topicPerformance?: TopicPerformance[];
+    message?: string;
+    [key: string]: unknown;
 }
 
 export interface GradePredictionResponse {
-  studentId: string;
-  status: 'insufficient_data' | 'prototype' | 'evaluated';
-  predictedGrade: string | null;
-  predictedMarks: number | null;
-  baseline: { predictedMarks: number; mae: number; rmse: number } | null;
-  metrics: { mae: number; rmse: number; samples: number; r2?: number } | null;
-  modelType?: string;
-  benchmarkDataset?: string;
-  ruleBasedReadiness?: {
-    readinessLevel: string;
-    readinessBadge: 'GREEN' | 'AMBER' | 'RED';
-    readinessScore: number;
-    topicCoveragePercent: number;
-    hardQuestionAccuracyPercent: number;
-    summary: string;
-    actionableRecommendations: string[];
-  } | null;
-  message: string;
+    predictedGrade?: string | null;
+    predictedMarks?: number | null;
+    modelType?: string;
+    status?: string;
+    message?: string;
+    metrics?: {
+        mae?: number | null;
+        rmse?: number | null;
+        r2?: number | null;
+    } | null;
+    ruleBasedReadiness?: {
+        readinessBadge?: string;
+        readinessLevel?: string;
+        summary?: string;
+        topicCoveragePercent?: number;
+        readinessScore?: number;
+    } | null;
+    [key: string]: unknown;
 }
 
 export interface RevisionPriority {
-  topicId: string;
-  topicName: string;
-  accuracy: number | null;
-  attempted: number;
-  questionsSeen: number;
-  priorityScore: number;
-  recommendedAction: string;
+    topicId?: string;
+    topicName?: string;
+    accuracy?: number | null;
+    attempted?: number;
+    questionsSeen?: number;
+    priorityScore?: number;
+    recommendedAction?: string;
+    [key: string]: unknown;
 }
 
-export type PopoverPlacement = 'top-start' | 'top-end' | 'bottom-start' | 'bottom-end' | 'right-end';
-export type TooltipSide = 'right' | 'top' | 'bottom';

@@ -1,5 +1,4 @@
-import React from 'react';
-import { AssessmentEngineModule } from '../components/AssessmentEngineModule';
+﻿import { AssessmentEngineModule } from '../components/AssessmentEngineModule';
 
 export default function AssessmentEnginePage() {
   return <AssessmentEngineModule />;
