@@ -1,4 +1,4 @@
-const fs = require('node:fs');
+﻿const fs = require('node:fs');
 const path = require('node:path');
 const { execFile } = require('node:child_process');
 
@@ -95,6 +95,7 @@ function evaluateExamReadiness({
 
   return {
     readinessLevel: level,
+    readiness_level: level,
     readinessBadge: badge,
     readinessScore: Number(readinessScore.toFixed(1)),
     topicCoveragePercent: Number((topicCoverageRatio * 100).toFixed(1)),
