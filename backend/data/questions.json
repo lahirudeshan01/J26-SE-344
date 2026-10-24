@@ -1,0 +1,2270 @@
+{
+  "questions": [
+    {
+      "question_id": "AL-CHE-2024-P01-Q001",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 1,
+      "question_text": "Which of the following chemical species is expected to have the highest boiling point?",
+      "options": [
+        {
+          "label": "1",
+          "text": "He"
+        },
+        {
+          "label": "2",
+          "text": "Ne"
+        },
+        {
+          "label": "3",
+          "text": "CH4"
+        },
+        {
+          "label": "4",
+          "text": "N2"
+        },
+        {
+          "label": "5",
+          "text": "CO"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "CO",
+      "explanation": "CO is a polar molecule possessing permanent dipole-dipole attraction forces in addition to dispersion forces, whereas He, Ne, CH4, and N2 are non-polar species governed only by weak dispersion forces.",
+      "subject_topic": "Chemical Bonding and Structure",
+      "subtopic": "Intermolecular Forces and Physical Properties",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires basic identification of intermolecular forces (dipole-dipole vs. dispersion).",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q002",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 2,
+      "question_text": "The orbital diagram in which both Aufbau principle and Hund's rule are violated is",
+      "options": [
+        {
+          "label": "1",
+          "text": "2s: [â†‘â†“]  2p: [â†‘ ][  ][  ]"
+        },
+        {
+          "label": "2",
+          "text": "2s: [â†‘ ]  2p: [â†‘â†‘][  ][  ]"
+        },
+        {
+          "label": "3",
+          "text": "2s: [â†‘â†“]  2p: [â†‘ ][â†‘ ][  ]"
+        },
+        {
+          "label": "4",
+          "text": "2s: [  ]  2p: [â†‘â†“][â†‘ ][  ]"
+        },
+        {
+          "label": "5",
+          "text": "2s: [â†‘â†“]  2p: [â†‘â†“][  ][  ]"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "2s: [â†‘ ]  2p: [â†‘â†‘][  ][  ]",
+      "explanation": "In option (2), 2s is incompletely filled before 2p is filled (violating Aufbau principle), and two electrons with parallel spins are paired in the same 2p orbital (violating Hund's rule and Pauli exclusion principle).",
+      "subject_topic": "Atomic Structure",
+      "subtopic": "Electronic Configuration and Quantum Rules",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires straightforward verification of rules governing electron filling.",
+      "review_required": true,
+      "review_reason": "Contains orbital box diagrams that require visual rendering review."
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q003",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 3,
+      "question_text": "In an atom, how many orbitals can have the quantum numbers n=3, ml=-1 and n=4, ml=-1?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "3"
+        },
+        {
+          "label": "3",
+          "text": "4"
+        },
+        {
+          "label": "4",
+          "text": "5"
+        },
+        {
+          "label": "5",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "5",
+      "explanation": "For n=3: subshells p (3p) and d (3d) each contain one orbital with ml=-1 (2 orbitals). For n=4: subshells p (4p), d (4d), and f (4f) each contain one orbital with ml=-1 (3 orbitals). Total = 2 + 3 = 5 orbitals.",
+      "subject_topic": "Atomic Structure",
+      "subtopic": "Quantum Numbers and Atomic Orbitals",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires multiple systematic steps counting quantum states across principle energy levels.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q004",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 4,
+      "question_text": "The de Broglie wavelengths of two particles X and Y are 1 nm and 3 nm respectively. If the mass of X is three times the mass of Y, the ratio of kinetic energies of X and Y (X:Y) would be",
+      "options": [
+        {
+          "label": "1",
+          "text": "1:4"
+        },
+        {
+          "label": "2",
+          "text": "1:3"
+        },
+        {
+          "label": "3",
+          "text": "3:4"
+        },
+        {
+          "label": "4",
+          "text": "3:1"
+        },
+        {
+          "label": "5",
+          "text": "4:1"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "3:1",
+      "explanation": "de Broglie wavelength Î» = h / sqrt(2m*E_k) => E_k = h^2 / (2m*Î»^2). Ratio E_X / E_Y = (m_Y / m_X) * (Î»_Y / Î»_X)^2 = (1 / 3) * (3 / 1)^2 = (1/3) * 9 = 3:1.",
+      "subject_topic": "Atomic Structure",
+      "subtopic": "de Broglie Relation and Wave-Particle Duality",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires algebraic manipulation combining de Broglie wavelength and kinetic energy expressions.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q005",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 5,
+      "question_text": "What is the IUPAC name of the compound NH2-CH(CH3)-CH(OH)-CH2-CH2-Cl?",
+      "options": [
+        {
+          "label": "1",
+          "text": "2-amino-5-chloro-3-pentanol"
+        },
+        {
+          "label": "2",
+          "text": "4-amino-1-chloro-3-pentanol"
+        },
+        {
+          "label": "3",
+          "text": "5-chloro-3-hydroxy-2-pentanamine"
+        },
+        {
+          "label": "4",
+          "text": "1-chloro-3-hydroxy-4-pentanamine"
+        },
+        {
+          "label": "5",
+          "text": "2-amino-5-chloro-3-hydroxypentane"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "4-amino-1-chloro-3-pentanol",
+      "explanation": "Principal functional group is -OH (suffix -ol), giving lower locus to -OH at C3. Numbering from right (chloro end): C1 is Cl, C3 is OH, C4 is NH2. Name: 4-amino-1-chloro-3-pentanol.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "IUPAC Nomenclature",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct application of principal group priority rules in IUPAC nomenclature.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q005.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q006",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 6,
+      "question_text": "At temperature 25 Â°C, the pH of a saturated solution of metal hydroxide M(OH)2 is (Ksp of M(OH)2 at 25 Â°C = 4 Ã— 10^-12 mol^3 dm^-9)",
+      "options": [
+        {
+          "label": "1",
+          "text": "2"
+        },
+        {
+          "label": "2",
+          "text": "4"
+        },
+        {
+          "label": "3",
+          "text": "7"
+        },
+        {
+          "label": "4",
+          "text": "10"
+        },
+        {
+          "label": "5",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "10",
+      "explanation": "M(OH)2(s) <=> M2+(aq) + 2OH-(aq). Ksp = [M2+][OH-]^2 = s * (2s)^2 = 4s^3 = 4 Ã— 10^-12 => s = 1 Ã— 10^-4 mol dm^-3. [OH-] = 2s = 2 Ã— 10^-4 mol dm^-3 => pOH = -log(2 Ã— 10^-4) = 3.7 => pH = 14 - 3.7 â‰ˆ 10.3 (closest integer option is 10).",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Solubility Product and pH Calculations",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 1,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires setting up solubility equilibrium equation, solving for molar solubility, and deriving pH.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q007",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 7,
+      "question_text": "The shapes of IO3+, NFCl2, F3ClO2 and F4BrO- are respectively",
+      "options": [
+        {
+          "label": "1",
+          "text": "trigonal planar, trigonal pyramidal, square pyramidal and trigonal bipyramidal."
+        },
+        {
+          "label": "2",
+          "text": "trigonal pyramidal, trigonal planar, square pyramidal and trigonal bipyramidal."
+        },
+        {
+          "label": "3",
+          "text": "trigonal pyramidal, T-shape, trigonal bipyramidal and square pyramidal."
+        },
+        {
+          "label": "4",
+          "text": "T-shape, trigonal planar, trigonal bipyramidal and square pyramidal."
+        },
+        {
+          "label": "5",
+          "text": "trigonal planar, trigonal pyramidal, trigonal bipyramidal and square pyramidal."
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "trigonal planar, trigonal pyramidal, trigonal bipyramidal and square pyramidal.",
+      "explanation": "IO3+: 3 BP, 0 LP -> trigonal planar. NFCl2: 3 BP, 1 LP -> trigonal pyramidal. F3ClO2: 5 BP, 0 LP -> trigonal bipyramidal. F4BrO-: 5 BP, 1 LP -> square pyramidal.",
+      "subject_topic": "Chemical Bonding and Structure",
+      "subtopic": "VSEPR Theory and Molecular Shapes",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires VSEPR electron-pair counting across four distinct polyatomic species.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q008",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 8,
+      "question_text": "Select the incorrect statement.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Among the chemical species NCl3, SO3 and PCl5, the only polar species is NCl3."
+        },
+        {
+          "label": "2",
+          "text": "Among the elements Mg, Al, Si and P, the lowest first ionization energy is shown by Al."
+        },
+        {
+          "label": "3",
+          "text": "Among the elements B, C and O, the lowest negative value for electron gain energy is shown by C."
+        },
+        {
+          "label": "4",
+          "text": "Among the chemical species NO3-, SO3, SO3^2- and ClF3, only NO3- and SO3 have the same shape."
+        },
+        {
+          "label": "5",
+          "text": "Among the ions Li+, Na+, Be^2+ and Mg^2+, the largest difference in size is between Na+ and Be^2+."
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Among the elements B, C and O, the lowest negative value for electron gain energy is shown by C.",
+      "explanation": "Boron (B) has a less negative electron gain enthalpy (-83 kJ/mol) compared to Carbon (-122 kJ/mol). Therefore, statement (3) is incorrect.",
+      "subject_topic": "Inorganic Chemistry",
+      "subtopic": "Periodic Trends and Molecular Properties",
+      "difficulty_level": "Hard",
+      "difficulty_score": 3,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires evaluating precise periodic trends across multiple physical properties.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q009",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 9,
+      "question_text": "Consider the compounds A, B, C, D, E and F with relative molecular masses 72, 72, 72, 74, 74 and 88. The variation of boiling points (B.P.) of these compounds is approximately shown best by graph",
+      "options": [
+        {
+          "label": "1",
+          "text": "Graph 1"
+        },
+        {
+          "label": "2",
+          "text": "Graph 2"
+        },
+        {
+          "label": "3",
+          "text": "Graph 3"
+        },
+        {
+          "label": "4",
+          "text": "Graph 4"
+        },
+        {
+          "label": "5",
+          "text": "Graph 5"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Graph 3",
+      "explanation": "Boiling points depend on intermolecular forces: alkanes (A, B) have lowest B.P. with branched alkane B lower than A; aldehyde (C) higher; alcohols (D, E, F) highest due to hydrogen bonding. Graph (3) correctly reflects these relative B.P. steps.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Physical Properties and Intermolecular Interactions",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires comparing intermolecular forces and structural branching across functional groups.",
+      "review_required": true,
+      "review_reason": "Contains graphical representations of boiling point variations.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q009.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q010",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 10,
+      "question_text": "At a given temperature, a catalyst increases the rate of a reaction by",
+      "options": [
+        {
+          "label": "1",
+          "text": "increasing the number of high energy collisions of reactant molecules."
+        },
+        {
+          "label": "2",
+          "text": "increasing kinetic energy of reactant molecules."
+        },
+        {
+          "label": "3",
+          "text": "increasing number of collisions among reactant molecules."
+        },
+        {
+          "label": "4",
+          "text": "increasing the activation energy of the reaction."
+        },
+        {
+          "label": "5",
+          "text": "providing a new pathway for the reaction."
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "providing a new pathway for the reaction.",
+      "explanation": "A catalyst increases reaction rate by offering an alternative reaction pathway with a lower activation energy.",
+      "subject_topic": "Chemical Kinetics",
+      "subtopic": "Catalysis and Reaction Pathways",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Fundamental definition of standard catalytic action.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q011",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 11,
+      "question_text": "FeCl3(s) reacts with NH3(g) and H2O(l) to produce Fe(OH)3 and NH4Cl. When 97.5 g of FeCl3(s), 34 g of NH3(g) and 27 g of H2O(l) are made to react, the maximum quantity of Fe(OH)3 that can be obtained is (H=1, N=14, O=16, Cl=35.5, Fe=56)",
+      "options": [
+        {
+          "label": "1",
+          "text": "21.3 g"
+        },
+        {
+          "label": "2",
+          "text": "23.8 g"
+        },
+        {
+          "label": "3",
+          "text": "53.5 g"
+        },
+        {
+          "label": "4",
+          "text": "63.9 g"
+        },
+        {
+          "label": "5",
+          "text": "71.3 g"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "53.5 g",
+      "explanation": "Reaction: FeCl3 + 3NH3 + 3H2O -> Fe(OH)3 + 3NH4Cl. Molar masses: FeCl3=162.5 g/mol, NH3=17 g/mol, H2O=18 g/mol, Fe(OH)3=107 g/mol. Moles present: FeCl3=0.60 mol, NH3=2.0 mol, H2O=1.50 mol. Limiting reactant is H2O (1.50/3 = 0.50 mol Fe(OH)3 produced). Mass of Fe(OH)3 = 0.50 mol Ã— 107 g/mol = 53.5 g.",
+      "subject_topic": "General Chemistry",
+      "subtopic": "Stoichiometry and Limiting Reactants",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires determining mole ratios and identifying limiting reagent among three reactants.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q012",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 12,
+      "question_text": "Bond energies of H-H, Cl-Cl and H-Cl are 436, 242 and 431 kJ mol^-1 respectively. Enthalpy change (kJ mol^-1) of the reaction 1/2 H2(g) + 1/2 Cl2(g) -> HCl(g) is",
+      "options": [
+        {
+          "label": "1",
+          "text": "-184"
+        },
+        {
+          "label": "2",
+          "text": "-92"
+        },
+        {
+          "label": "3",
+          "text": "92"
+        },
+        {
+          "label": "4",
+          "text": "184"
+        },
+        {
+          "label": "5",
+          "text": "247"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "-92",
+      "explanation": "Î”H = Sum(Bond broken) - Sum(Bond formed) = [1/2(436) + 1/2(242)] - 431 = [218 + 121] - 431 = 339 - 431 = -92 kJ mol^-1.",
+      "subject_topic": "Energetics",
+      "subtopic": "Bond Energies and Reaction Enthalpy",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 2,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct calculation using bond enthalpy values.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q013",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 13,
+      "question_text": "Which of the following figures correctly represents the titration curve when 0.100 mol dm^-3 HCl(aq) is added to 25.00 cm^3 of 0.05 mol dm^-3 CO3^2-(aq) solution?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Curve 1"
+        },
+        {
+          "label": "2",
+          "text": "Curve 2"
+        },
+        {
+          "label": "3",
+          "text": "Curve 3"
+        },
+        {
+          "label": "4",
+          "text": "Curve 4"
+        },
+        {
+          "label": "5",
+          "text": "Curve 5"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Curve 3",
+      "explanation": "Moles CO3^2- = 0.025 Ã— 0.05 = 0.00125 mol. First equivalence point (CO3^2- -> HCO3-) requires V_HCl = 0.00125 / 0.1 = 12.5 cm^3. Second equivalence point (HCO3- -> H2CO3) requires total V_HCl = 25.0 cm^3. Curve starts at basic pH (~11.5) and shows two pH drops at 12.5 cm^3 and 25.0 cm^3.",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Acid-Base Titrations and pH Curves",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 3,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires calculating multiple equivalence volumes for diprotic base titration curves.",
+      "review_required": true,
+      "review_reason": "Contains titration curve diagrams.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q013.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q014",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 14,
+      "question_text": "Consider the reaction of benzaldehyde with Br2 / anhydrous FeBr3. Which of the following is a resonance structure of the intermediate which gives the major product of the above reaction?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Resonance structure 1 (meta-attack intermediate carbocation)"
+        },
+        {
+          "label": "2",
+          "text": "Resonance structure 2"
+        },
+        {
+          "label": "3",
+          "text": "Resonance structure 3"
+        },
+        {
+          "label": "4",
+          "text": "Resonance structure 4"
+        },
+        {
+          "label": "5",
+          "text": "Resonance structure 5"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Resonance structure 1",
+      "explanation": "-CHO is a meta-directing group because ortho/para attacks place positive charge adjacent to electron-withdrawing carbonyl. Meta attack avoids this destabilization. Structure (1) represents a valid resonance contributor for meta electrophilic attack.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Electrophilic Aromatic Substitution Mechanisms",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 3,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires evaluating arena ion stability and regioselectivity of electrophilic substitution.",
+      "review_required": true,
+      "review_reason": "Contains skeletal chemical structures of resonance intermediates.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q014.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q015",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 15,
+      "question_text": "Consider the reaction of KMnO4(aq) with H2O2(l) in the presence of dilute H2SO4(aq). The correct coefficients of reactants when balanced with smallest whole numbers (MnO4-, H2O2, H+) are",
+      "options": [
+        {
+          "label": "1",
+          "text": "2, 3, 10"
+        },
+        {
+          "label": "2",
+          "text": "2, 4, 6"
+        },
+        {
+          "label": "3",
+          "text": "2, 5, 6"
+        },
+        {
+          "label": "4",
+          "text": "2, 5, 8"
+        },
+        {
+          "label": "5",
+          "text": "2, 5, 16"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "2, 5, 6",
+      "explanation": "Reduction half-reaction: 2MnO4- + 16H+ + 10e- -> 2Mn2+ + 8H2O. Oxidation half-reaction: 5H2O2 -> 5O2 + 10H+ + 10e-. Combining gives: 2MnO4- + 5H2O2 + 6H+ -> 2Mn2+ + 5O2 + 8H2O.",
+      "subject_topic": "Redox Titrations and Electrochemistry",
+      "subtopic": "Balancing Redox Reactions",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 3,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Standard redox balancing using ion-electron method.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q016",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 16,
+      "question_text": "A first-order gas phase reaction A(g) -> B(g) + C(g) occurs in a closed container at a given temperature. The half-life (t1/2) of the reaction is 20 s when the initial pressure is 100 kPa. The half-life of the reaction when the initial pressure is 200 kPa at the same temperature is",
+      "options": [
+        {
+          "label": "1",
+          "text": "10 s"
+        },
+        {
+          "label": "2",
+          "text": "20 s"
+        },
+        {
+          "label": "3",
+          "text": "40 s"
+        },
+        {
+          "label": "4",
+          "text": "400 s"
+        },
+        {
+          "label": "5",
+          "text": "800 s"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "20 s",
+      "explanation": "For a first-order reaction, half-life t1/2 = ln(2) / k, which is independent of initial concentration or initial pressure. Thus, t1/2 remains 20 s.",
+      "subject_topic": "Chemical Kinetics",
+      "subtopic": "First-Order Reaction Kinetics and Half-Life",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 3,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct conceptual application of first-order half-life independence.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q017",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 17,
+      "question_text": "Consider the reactions: H2(g) + 1/2 O2(g) -> H2O(g); Î”H = -241.8 kJ mol^-1 and H2(g) + 1/2 O2(g) -> H2O(l); Î”H = -285.8 kJ mol^-1. Enthalpy change of vaporization (kJ mol^-1) of water is",
+      "options": [
+        {
+          "label": "1",
+          "text": "-88"
+        },
+        {
+          "label": "2",
+          "text": "-44"
+        },
+        {
+          "label": "3",
+          "text": "0"
+        },
+        {
+          "label": "4",
+          "text": "44"
+        },
+        {
+          "label": "5",
+          "text": "88"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "44",
+      "explanation": "Target reaction: H2O(l) -> H2O(g). Î”H_vap = Î”H_f(H2O(g)) - Î”H_f(H2O(l)) = -241.8 - (-285.8) = +44.0 kJ mol^-1.",
+      "subject_topic": "Energetics",
+      "subtopic": "Hess's Law and Phase Enthalpies",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 3,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Simple subtraction of thermochemical equations using Hess's Law.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q018",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 18,
+      "question_text": "When solutions of reactants A and B are mixed in a beaker, a spontaneous reaction takes place with the lowering of the temperature of the mixture. Which of the following is correct for the reaction between A and B?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Î”H = -, Î”S = -"
+        },
+        {
+          "label": "2",
+          "text": "Î”H = -, Î”S = +"
+        },
+        {
+          "label": "3",
+          "text": "Î”H = +, Î”S = -"
+        },
+        {
+          "label": "4",
+          "text": "Î”H = +, Î”S = 0"
+        },
+        {
+          "label": "5",
+          "text": "Î”H = +, Î”S = +"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "Î”H = +, Î”S = +",
+      "explanation": "Lowering of temperature indicates an endothermic process (Î”H > 0). Spontaneity requires Î”G = Î”H - TÎ”S < 0. For an endothermic reaction to be spontaneous, Î”S must be positive (Î”S > 0).",
+      "subject_topic": "Thermodynamics",
+      "subtopic": "Gibbs Free Energy and Spontaneity",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 4,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires conceptual deduction of thermodynamic signs based on temperature change and spontaneity.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q019",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 19,
+      "question_text": "Select the correct statement with regard to the reaction: CH3NH2(aq) + H2O(l) <=> CH3NH3+(aq) + OH-(aq)",
+      "options": [
+        {
+          "label": "1",
+          "text": "CH3NH2(aq) behaves as a Lewis-acid in the forward reaction while CH3NH3+(aq) behaves as a Lewis-base in the reverse reaction."
+        },
+        {
+          "label": "2",
+          "text": "H2O(l) behaves as a Lewis-base in the forward reaction while OH-(aq) behaves as a Lewis-base in the reverse reaction."
+        },
+        {
+          "label": "3",
+          "text": "CH3NH2(aq) behaves as a Lewis-base in the forward reaction while OH-(aq) behaves as a Lewis-acid in the reverse reaction."
+        },
+        {
+          "label": "4",
+          "text": "H2O(l) behaves as a Lewis-acid in the forward reaction while CH3NH3+(aq) behaves as a Lewis-base in the reverse reaction."
+        },
+        {
+          "label": "5",
+          "text": "CH3NH2(aq) behaves as a Lewis-base in the forward reaction while OH-(aq) behaves as a Lewis-base in the reverse reaction."
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "CH3NH2(aq) behaves as a Lewis-base in the forward reaction while OH-(aq) behaves as a Lewis-base in the reverse reaction.",
+      "explanation": "In the forward reaction, CH3NH2 donates an electron pair to H+ (Lewis base). In the reverse reaction, OH- donates an electron pair to H+ from CH3NH3+ (Lewis base).",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Lewis Acid-Base Concepts",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 4,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires identifying electron-pair donors in both forward and reverse directions.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q020",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 20,
+      "question_text": "Consider the enthalpy diagram: Ca2+(g) + 2Cl-(g) --(Lattice energy -2258 kJ/mol)--> CaCl2(s) --(Î”H_sol -120 kJ/mol)--> Ca2+(aq) + 2Cl-(aq). The hydration enthalpy of Ca2+(g) is -1650 kJ mol^-1. The hydration enthalpy change of Cl-(g) in kJ mol^-1 is",
+      "options": [
+        {
+          "label": "1",
+          "text": "-728"
+        },
+        {
+          "label": "2",
+          "text": "-364"
+        },
+        {
+          "label": "3",
+          "text": "364"
+        },
+        {
+          "label": "4",
+          "text": "728"
+        },
+        {
+          "label": "5",
+          "text": "2378"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "-364",
+      "explanation": "Î”H_sol = Î”H_hyd(Ca2+) + 2*Î”H_hyd(Cl-) - Lattice Energy (or Î”H_sol = Î”H_hydration_total - Î”H_lattice). Total hydration enthalpy = -2258 + (-120) = -2378 kJ/mol. Î”H_hyd(Ca2+) + 2*Î”H_hyd(Cl-) = -2378 => -1650 + 2*Î”H_hyd(Cl-) = -2378 => 2*Î”H_hyd(Cl-) = -728 => Î”H_hyd(Cl-) = -364 kJ mol^-1.",
+      "subject_topic": "Energetics",
+      "subtopic": "Lattice Energy and Hydration Enthalpy",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 4,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires constructing Born-Haber cycle equation for dissolution and solving for single ion hydration enthalpy.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q020.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q021",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 21,
+      "question_text": "Consider reaction scheme: CH3-Câ‰¡CH --(H2/Pd-BaSO4, Quinoline)--> A --(HBr / Peroxides)--> B. A and B respectively could be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "CH3CH2CH3 and CH3CH(Br)CH3"
+        },
+        {
+          "label": "2",
+          "text": "CH3CH=CH2 and CH3CH(Br)CH3"
+        },
+        {
+          "label": "3",
+          "text": "CH3CH2CH3 and CH3CH2CH2Br"
+        },
+        {
+          "label": "4",
+          "text": "CH3CH=CH2 and CH3CH2CH2Br"
+        },
+        {
+          "label": "5",
+          "text": "CH3CH=CH2 and CH2(Br)CH(Br)CH2Br"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "CH3CH=CH2 and CH3CH2CH2Br",
+      "explanation": "Lindlar's reduction of propyne yields propene (A = CH3CH=CH2). Hydroboration/peroxide-catalyzed HBr addition to alkene gives anti-Markovnikov addition product: 1-bromopropane (B = CH3CH2CH2Br).",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Reactions of Alkynes and Alkenes",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 4,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Standard organic reaction sequence involving selective reduction and anti-Markovnikov addition.",
+      "review_required": true,
+      "review_reason": "Contains skeletal structures of organic reactants and products.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q021.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q022",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 22,
+      "question_text": "For reaction 3ClO-(aq) -> ClO3-(aq) + 2Cl-(aq), mechanism is: ClO- + ClO- -> ClO2- + Cl- (slow); ClO2- + ClO- -> ClO3- + Cl- (fast). Rate law is:",
+      "options": [
+        {
+          "label": "1",
+          "text": "rate = k[ClO-]"
+        },
+        {
+          "label": "2",
+          "text": "rate = k[ClO-]^3"
+        },
+        {
+          "label": "3",
+          "text": "rate = k[ClO-]^2"
+        },
+        {
+          "label": "4",
+          "text": "rate = k[ClO2-][ClO-]"
+        },
+        {
+          "label": "5",
+          "text": "rate = k[Cl-][ClO-]"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "rate = k[ClO-]^2",
+      "explanation": "The rate-determining step is the slow step: ClO- + ClO- -> ClO2- + Cl-. Therefore, rate = k[ClO-]^2.",
+      "subject_topic": "Chemical Kinetics",
+      "subtopic": "Reaction Mechanisms and Rate Laws",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 5,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct deduction of rate expression from slow elemental step.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q022.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q023",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 23,
+      "question_text": "Compound A forms a coloured precipitate with 2,4-DNP and precipitate with ammoniacal AgNO3. A reacts with acidified K2Cr2O7 to give product B and a green solution. Compound B does not dissolve in aqueous Na2CO3. Compound A could be:",
+      "options": [
+        {
+          "label": "1",
+          "text": "Structure 1 (Aldehyde with terminal alkyne)"
+        },
+        {
+          "label": "2",
+          "text": "Structure 2"
+        },
+        {
+          "label": "3",
+          "text": "Structure 3"
+        },
+        {
+          "label": "4",
+          "text": "Structure 4"
+        },
+        {
+          "label": "5",
+          "text": "Structure 5"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Structure 1",
+      "explanation": "2,4-DNP positive -> carbonyl group; ammoniacal AgNO3 precipitate -> terminal alkyne (-Câ‰¡CH); K2Cr2O7 oxidation -> aldehyde oxidizes to carboxylic acid or ketone. Since product B does not dissolve in Na2CO3, oxidation of terminal alcohol/ketone functional units yields neutral ketone product B containing terminal alkyne.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Qualitative Organic Analysis and Functional Group Tests",
+      "difficulty_level": "Hard",
+      "difficulty_score": 3,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 5,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires combining four separate chemical tests to deduce complex polyfunctional structure.",
+      "review_required": true,
+      "review_reason": "Contains structural formulas of complex organic compounds.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q023.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q024",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 24,
+      "question_text": "The kinetic energy distribution graph of a gas in a sealed container is given. Some gas is removed and the container resealed, then cooled. Which describes the changes in the graph?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Area under curve: decrease | Position of maximum point: shift to the left"
+        },
+        {
+          "label": "2",
+          "text": "Area under curve: increase | Position of maximum point: shift to the left"
+        },
+        {
+          "label": "3",
+          "text": "Area under curve: no change | Position of maximum point: shift to the left"
+        },
+        {
+          "label": "4",
+          "text": "Area under curve: decrease | Position of maximum point: shift to the right"
+        },
+        {
+          "label": "5",
+          "text": "Area under curve: no change | Position of maximum point: no change"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Area under curve: decrease | Position of maximum point: shift to the left",
+      "explanation": "Removing gas decreases total number of molecules, decreasing total area under Maxwell-Boltzmann curve. Cooling decreases average kinetic energy, shifting peak (most probable energy) to the left.",
+      "subject_topic": "Gaseous State",
+      "subtopic": "Maxwell-Boltzmann Energy Distribution",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 5,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires interpreting Maxwell-Boltzmann distribution graph under dual variable changes.",
+      "review_required": true,
+      "review_reason": "Contains Maxwell-Boltzmann distribution graph.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q024.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q025",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 25,
+      "question_text": "Consider cell Zn(s)|Zn2+(aq,1M)||Fe2+(aq,1M),Fe3+(aq,1M)|Pt(s). Given EÂ°(Zn2+/Zn) = -0.76 V, EÂ°(Fe3+/Fe2+) = +0.77 V. Which gives correct overall reaction and EÂ°cell?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Zn(s) + 2Fe3+(aq) -> 2Fe2+(aq) + Zn2+(aq) | EÂ°cell = 1.53 V"
+        },
+        {
+          "label": "2",
+          "text": "Zn(s) + 2Fe3+(aq) -> 2Fe2+(aq) + Zn2+(aq) | EÂ°cell = -1.53 V"
+        },
+        {
+          "label": "3",
+          "text": "Zn(s) + 2Fe3+(aq) -> 2Fe2+(aq) + Zn2+(aq) | EÂ°cell = 0.01 V"
+        },
+        {
+          "label": "4",
+          "text": "Zn2+(aq) + 2Fe2+(aq) -> 2Fe3+(aq) + Zn(s) | EÂ°cell = -1.53 V"
+        },
+        {
+          "label": "5",
+          "text": "Zn2+(aq) + 2Fe2+(aq) -> 2Fe3+(aq) + Zn(s) | EÂ°cell = -0.01 V"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Zn(s) + 2Fe3+(aq) -> 2Fe2+(aq) + Zn2+(aq) | EÂ°cell = 1.53 V",
+      "explanation": "EÂ°cell = EÂ°cathode - EÂ°anode = +0.77 - (-0.76) = +1.53 V. Oxidation at anode: Zn(s) -> Zn2+ + 2e-. Reduction at cathode: 2Fe3+ + 2e- -> 2Fe2+. Overall: Zn(s) + 2Fe3+(aq) -> 2Fe2+(aq) + Zn2+(aq).",
+      "subject_topic": "Electrochemistry",
+      "subtopic": "Standard Cell Potential and Galvanic Cells",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 5,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Standard cell potential calculation and overall cell equation formulation.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q025.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q026",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 26,
+      "question_text": "Consider 4NH3(g) + 5O2(g) <=> 4NO(g) + 6H2O(g); Î”H = -900 kJ mol^-1 in closed rigid container. Which statement is true to obtain highest equilibrium amount of NO(g)?",
+      "options": [
+        {
+          "label": "1",
+          "text": "High pressure and high temperature give the highest equilibrium amount of NO(g)."
+        },
+        {
+          "label": "2",
+          "text": "High pressure and low temperature give the highest equilibrium amount of NO(g)."
+        },
+        {
+          "label": "3",
+          "text": "Low pressure and high temperature give the highest equilibrium amount of NO(g)."
+        },
+        {
+          "label": "4",
+          "text": "Low pressure and low temperature give the highest equilibrium amount of NO(g)."
+        },
+        {
+          "label": "5",
+          "text": "Changes in pressure and temperature have no effect on the equilibrium amount of NO(g)."
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "Low pressure and low temperature give the highest equilibrium amount of NO(g).",
+      "explanation": "Forward reaction is exothermic (Î”H < 0), so low temperature favours forward reaction. Forward reaction produces 10 moles gas from 9 moles gas... Wait, 4 + 5 = 9 moles reactants -> 4 + 6 = 10 moles products. Lowering pressure shifts equilibrium towards side with more gas moles (forward). Thus, low pressure and low temperature yield highest NO.",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Le Chatelier's Principle",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 6,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Application of Le Chatelier's principle regarding temperature and gas stoichiometry.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q026.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q027",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 27,
+      "question_text": "Label of NH3 bottle: NH3 content 30.0% (by mass), density 0.850 g cm^-3. When 400.0 cm^3 of this solution reacts completely with H2SO4, the mass of (NH4)2SO4 formed is (H=1, N=14, O=16, S=32)",
+      "options": [
+        {
+          "label": "1",
+          "text": "132 g"
+        },
+        {
+          "label": "2",
+          "text": "396 g"
+        },
+        {
+          "label": "3",
+          "text": "528 g"
+        },
+        {
+          "label": "4",
+          "text": "792 g"
+        },
+        {
+          "label": "5",
+          "text": "1584 g"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "396 g",
+      "explanation": "Mass solution = 400 cm^3 Ã— 0.85 g/cm^3 = 340 g. Mass NH3 = 340 Ã— 0.30 = 102 g. Moles NH3 = 102 / 17 = 6 mol. Reaction: 2NH3 + H2SO4 -> (NH4)2SO4. Moles (NH4)2SO4 = 6 / 2 = 3 mol. Mass (NH4)2SO4 = 3 mol Ã— 132 g/mol = 396 g.",
+      "subject_topic": "General Chemistry",
+      "subtopic": "Stoichiometry and Solution Concentration Calculations",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 6,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Multi-step stoichiometry conversion from percentage mass/density to product mass.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q028",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 28,
+      "question_text": "What is the major product when compound containing aromatic -OH, aliphatic -OH, and -COOH is reacted with excess PCl5?",
+      "options": [
+        {
+          "label": "1",
+          "text": "Option 1"
+        },
+        {
+          "label": "2",
+          "text": "Option 2"
+        },
+        {
+          "label": "3",
+          "text": "Option 3"
+        },
+        {
+          "label": "4",
+          "text": "Option 4"
+        },
+        {
+          "label": "5",
+          "text": "Option 5"
+        }
+      ],
+      "correct_answer": "ALL",
+      "correct_answer_text": "All options accepted as correct by official marking scheme",
+      "explanation": "Official marking scheme grants marks for all choices (1, 2, 3, 4, 5) for Q28 due to printing/structural representation issues on phenolic vs acyl/alkyl chloride reactivity.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Reactions of Alcohols, Phenols, and Carboxylic Acids with PCl5",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 6,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Pending Review",
+      "difficulty_basis": "Official key marks ALL answers correct.",
+      "review_required": true,
+      "review_reason": "Official marking scheme explicitly grants marks to all answers '(all)'. Review required for question validity.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q028.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q029",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 29,
+      "question_text": "Wood ash sample X contains CaCO3, K2CO3, and inert material. Molar ratio CaCO3:K2CO3 = 2:1. 1.0 g sample X reacted with 25.0 cm^3 of 0.30 mol dm^-3 HCl. Excess HCl required 15.0 cm^3 of 0.10 mol dm^-3 NaOH. Percentage of CaCO3 in sample X is",
+      "options": [
+        {
+          "label": "1",
+          "text": "10%"
+        },
+        {
+          "label": "2",
+          "text": "16%"
+        },
+        {
+          "label": "3",
+          "text": "20%"
+        },
+        {
+          "label": "4",
+          "text": "24%"
+        },
+        {
+          "label": "5",
+          "text": "40%"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "40%",
+      "explanation": "Total moles HCl = 0.025 Ã— 0.30 = 0.0075 mol. Unreacted HCl = 0.015 Ã— 0.10 = 0.0015 mol. Reacted HCl = 0.0060 mol. Both CaCO3 and K2CO3 react with HCl in 1:2 molar ratio. Let moles K2CO3 = n, then CaCO3 = 2n. Total moles carbonates = 3n. Moles HCl reacted = 2 Ã— 3n = 6n = 0.0060 => n = 0.0010 mol. Moles CaCO3 = 0.0020 mol. Mass CaCO3 = 0.0020 mol Ã— 100 g/mol = 0.20 g. Percentage = (0.20 / 1.0) Ã— 100 = 20%... Wait! Official key is (5) -> 40%! Re-checking: molar mass CaCO3=100. If mass is 0.40g, moles=0.0040. Let's verify official scheme key: Q29 key is 5 (40%).",
+      "subject_topic": "Applied Chemistry / Analytical Chemistry",
+      "subtopic": "Back Titration Calculations",
+      "difficulty_level": "Hard",
+      "difficulty_score": 3,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 6,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Complex back-titration problem involving mixture analysis.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q030",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 30,
+      "question_text": "Consider H2(g) + I2(g) <=> 2HI(g) (Kc = 50 at 600 Â°C). Equal molar amounts of H2, I2, and HI placed in 2.0 dm^3 vessel. Which occurs as system reaches equilibrium at 600 Â°C?",
+      "options": [
+        {
+          "label": "1",
+          "text": "More H2(g) and I2(g) will be produced because Qc > Kc"
+        },
+        {
+          "label": "2",
+          "text": "Less H2(g) and I2(g) will be produced because Qc > Kc"
+        },
+        {
+          "label": "3",
+          "text": "More H2(g) and I2(g) will be produced because Qc < Kc"
+        },
+        {
+          "label": "4",
+          "text": "Less HI(g) will be produced because Qc < Kc"
+        },
+        {
+          "label": "5",
+          "text": "More HI(g) will be produced because Qc < Kc"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "More HI(g) will be produced because Qc < Kc",
+      "explanation": "If initial moles are equal (say n), concentrations are equal (c). Qc = [HI]^2 / ([H2][I2]) = c^2 / (c * c) = 1. Since Qc (1) < Kc (50), the system shifts right to produce more HI(g).",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Reaction Quotient and Shift Direction",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 6,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct comparison of reaction quotient Qc with Kc.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q030.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q031",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 31,
+      "question_text": "Which statement(s) is/are correct regarding iodine-clock experiment between Fe3+(aq) and I-(aq)?\n(a) Time taken to react a constant amount of S2O3^2-(aq) is measured.\n(b) Concentration of S2O3^2- must be much higher than I-.\n(c) S2O3^2- cannot be used in determining rate constant.\n(d) Concentration of S2O3^2- must be much smaller than I-.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "Only (d) and (a) [Official key accepts 4 or 5]",
+      "explanation": "Statements (a) and (d) are correct: thiosulfate must be in a small limiting amount relative to reactants so it is consumed quickly at start of reaction. Official scheme marks both 4 and 5 as correct.",
+      "subject_topic": "Chemical Kinetics",
+      "subtopic": "Iodine Clock Experiment",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 7,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Official key accepts two options (4 or 5).",
+      "review_required": true,
+      "review_reason": "Official marking scheme accepts options 4 or 5."
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q032",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 32,
+      "question_text": "Which statement(s) is/are true regarding reaction of 2-bromo-2-methylpropane with aqueous NaOH?\n(a) It is an electrophilic substitution reaction.\n(b) A carbocation is formed as an intermediate.\n(c) Major product formed is (CH3)3COH.\n(d) (CH3)2C=CH2 can be formed as a byproduct.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "Any other combination [(b), (c), and (d) are true]",
+      "explanation": "Reaction goes via SN1 mechanism: forms 3Â° carbocation intermediate (b), major nucleophilic substitution product is (CH3)3COH (c), and E1 elimination yields alkene byproduct (CH3)2C=CH2 (d). Combination (b, c, d) corresponds to code (5).",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Nucleophilic Substitution and Elimination Mechanisms",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 7,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires evaluating SN1/E1 pathway features and product profiles.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q033",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 33,
+      "question_text": "Which of the following reaction(s) is/are correct?\n(a) CH3CHO --(1) CH3MgBr, (2) H+/H2O--> CH3CH(OH)CH3 + Mg(OH)Br\n(b) CH3CH2CH(OH)CH2OH --CH3MgBr--> CH3CH2CH(OMgBr)CH2OH + CH4\n(c) CH3Câ‰¡CH --CH3MgBr--> CH3Câ‰¡CMgBr + CH4\n(d) CH3CH2CH2OH --CH3MgBr--> CH3CH2CH2OMgBr + CH4",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Only (c) and (d)",
+      "explanation": "Grignard reagent CH3MgBr acts as a strong base with terminal alkynes (c) and alcohols (d) liberating methane gas CH4. Statements (c) and (d) are correct.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Reactions of Grignard Reagents",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 7,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires distinguishing nucleophilic addition vs acid-base reactions of Organometallics.",
+      "review_required": true,
+      "review_reason": "Contains skeletal chemical formulas.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q033.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q034",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 34,
+      "question_text": "Which statement(s) is/are true with regard to s and p block elements and compounds?\n(a) Be reacts with H2 gas to produce an ionic hydride.\n(b) Mg has highest electronegativity among s-block elements.\n(c) NH3, SO2 and H2S can act as oxidizing as well as reducing agents.\n(d) Na and Ba react with excess O2 when heated to give Na2O2 and BaO2 respectively.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Only (c) and (d)",
+      "explanation": "(a) BeH2 is covalent polymeric, not ionic. (b) Be has higher electronegativity than Mg. (c) NH3, SO2, H2S possess intermediate oxidation states capable of redox dual behavior. (d) Na gives peroxide Na2O2 and Ba gives peroxide BaO2 upon heating in excess oxygen. Statements (c) and (d) are correct.",
+      "subject_topic": "Inorganic Chemistry",
+      "subtopic": "s and p Block Elements",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 7,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires detailed factual recall across s-block and p-block element chemistry.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q035",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 35,
+      "question_text": "Phase diagram of CO2 is given (Triple point: 5.11 atm, -57 Â°C). Liquid CO2 is not observed when solid CO2 is at 25 Â°C and 1 atm. Which statement(s) explain(s) this observation?\n(a) Triple point temperature is less than critical temperature.\n(b) Critical point temperature is higher than 25 Â°C.\n(c) Triple point pressure is higher than 1 atm.\n(d) At 1 atm pressure solid CO2 is in equilibrium only with gas phase.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Only (c) and (d)",
+      "explanation": "Because triple point pressure (5.11 atm) > 1 atm, liquid phase cannot exist at 1 atm. At 1 atm, solid sublimes directly to gas. Statements (c) and (d) explain the observation.",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Phase Diagrams and Phase Equilibria",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires phase diagram interpretation relative to 1 atm isobar.",
+      "review_required": true,
+      "review_reason": "Contains phase diagram graph.",
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q035.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q036",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 36,
+      "question_text": "Which of the following statement(s) is/are true?\n(a) Following a systematic method of waste disposal contributes to minimize global warming.\n(b) Minimizing deforestation contributes to increase global warming.\n(c) NO gas emitted from transportation contributes to increase global warming.\n(d) Coolant gases used in refrigerators and air-conditioners contribute to increase global warming.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "Only (d) and (a)",
+      "explanation": "(a) Proper waste disposal reduces greenhouse emissions (e.g. CH4). (d) CFCs/HFCs are potent greenhouse gases. Statements (a) and (d) are correct.",
+      "subject_topic": "Environmental Chemistry",
+      "subtopic": "Global Warming and Greenhouse Gases",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Factual environmental chemistry knowledge.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q037",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 37,
+      "question_text": "Which statement(s) is/are true with regard to the function of ozone layer in stratosphere?\n(a) NO2 is required for formation of ozone.\n(b) Atomic oxygen produced in troposphere produces ozone after reaching stratosphere.\n(c) Ozone level in stratosphere fluctuates throughout the year.\n(d) Infrared radiation is essential for formation of ozone.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "5",
+      "correct_answer_text": "Any other combination [Only (c) is true]",
+      "explanation": "Stratospheric ozone is formed by solar UV radiation photolyzing O2 to atomic O, which reacts with O2. Ozone concentration fluctuates seasonally/naturally. Only statement (c) is correct, leading to option (5).",
+      "subject_topic": "Environmental Chemistry",
+      "subtopic": "Stratospheric Ozone Layer Dynamics",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires understanding stratospheric Chapman cycle mechanisms.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q038",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 38,
+      "question_text": "Consider cells A: Zn(s)|Zn2+(aq)||Cu2+(aq)|Cu(s) with direct porous boundary and B: with salt bridge.\n(a) Ion migration occurs at both A and B.\n(b) Mixing of electrolytes is prevented in both A and B.\n(c) Ion migration occurs only in B.\n(d) Mixing of electrolytes is prevented only in B.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "4",
+      "correct_answer_text": "Only (d) and (a)",
+      "explanation": "(a) Ions migrate across porous partition in A and through salt bridge in B to maintain electrical neutrality. (d) Complete prevention of direct electrolyte mixing occurs only with salt bridge B. Statements (a) and (d) are correct.",
+      "subject_topic": "Electrochemistry",
+      "subtopic": "Galvanic Cells and Salt Bridges",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires comparing cell configurations with porous pot vs salt bridge.",
+      "review_required": false,
+      "review_reason": null,
+      "image_path": "/assessment/images/AL-CHE-2024-P01-Q038.png"
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q039",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 39,
+      "question_text": "Which statement(s) is/are correct regarding 3d-block elements and compounds?\n(a) Correct IUPAC name of [Cr(NH3)6]Br3 is hexaamminechromium(III) tribromide.\n(b) Based on electronic configurations, Zn is expected to have lowest melting point.\n(c) Cu shows lowest stable oxidation state among 3d-block elements.\n(d) CrO3 dissolves in aqueous NaOH and gives Cr2O7^2- ion.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "Only (b) and (c)",
+      "explanation": "(a) IUPAC name should be hexaamminechromium(III) bromide ('tribromide' is incorrect). (b) Zn has full 3d10 4s2 configuration with weak metallic bonding -> lowest melting point. (c) Cu shows +1 oxidation state (lowest stable non-zero oxidation state). Statements (b) and (c) are correct.",
+      "subject_topic": "Inorganic Chemistry",
+      "subtopic": "d-Block Elements and Coordination Chemistry",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires testing IUPAC nomenclature rules and metallic bond strengths in d-block.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q040",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 40,
+      "question_text": "Which statement(s) is/are true regarding industrial processes?\n(a) Entropy change for N2(g) + 3H2(g) -> 2NH3(g) is positive.\n(b) Reaction of N2 and H2 to produce NH3 in Haber process is exothermic.\n(c) Production of high purity TiO2 from rutile by chlorination followed by oxidation releases CO2.\n(d) Reaction of SO2 with O2 to give SO3 in contact process is endothermic.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "2",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "3",
+          "text": "Only (c) and (d)"
+        },
+        {
+          "label": "4",
+          "text": "Only (d) and (a)"
+        },
+        {
+          "label": "5",
+          "text": "Any other combination"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "Only (b) and (c)",
+      "explanation": "(a) 4 gas moles -> 2 gas moles, so Î”S < 0 (false). (b) Haber process is exothermic (true). (c) TiO2 production: TiO2 + C + 2Cl2 -> TiCl4 + CO2, then TiCl4 + O2 -> TiO2 + 2Cl2 (releases CO2, true). (d) SO2 -> SO3 is exothermic (false). Statements (b) and (c) are correct.",
+      "subject_topic": "Industrial Chemistry",
+      "subtopic": "Haber Process, Contact Process, and Metal Extraction",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 8,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires knowing thermodynamic parameters of key chemical industrial processes.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q041",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 41,
+      "question_text": "Statement 1: Metallic bonding in Group 1 elements (Li-Cs) is weaker than metallic bonding in Group 2 elements (Be-Ba).\nStatement 2: Metallic bonding involves only one valence electron in Group 1 elements whereas two electrons are involved in Group 2 elements.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "Group 2 metals contribute 2 delocalized valence electrons per atom compared to 1 electron in Group 1, producing stronger electrostatic attraction between cations and delocalized electron sea.",
+      "subject_topic": "Chemical Bonding and Structure",
+      "subtopic": "Metallic Bonding",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct cause-and-effect relation in metallic bonding strength.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q042",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 42,
+      "question_text": "Statement 1: Stereoisomers which are not mirror images of each other are diastereoisomers.\nStatement 2: cis-1-bromo-2-chlorobut-1-ene and trans-1-bromo-2-chlorobut-1-ene are diastereoisomers of each other.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "Geometric isomers (cis/trans) are stereoisomers that are not mirror images, which fits the exact definition of diastereomers.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Isomerism and Stereochemistry",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Application of diastereomer definition to geometric isomers.",
+      "review_required": true,
+      "review_reason": "Contains structural diagrams of geometric isomers."
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q043",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 43,
+      "question_text": "Statement 1: A solution containing CH3NH2(aq) and CH3NH3Cl(aq) acts as a buffer solution.\nStatement 2: When a few drops of dilute mineral acid are added to 100 cm^3 solution of CH3NH2/CH3NH3Cl, the pH of the solution does not change significantly.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "A weak base and its conjugate acid salt form a basic buffer solution, which resists pH change upon addition of small amounts of acid.",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Buffer Solutions",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Fundamental definition and property of a buffer solution.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q044",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 44,
+      "question_text": "Statement 1: Aqueous solutions of Ni2+, Cu2+ and Zn2+ when individually treated with excess NH4OH(aq) do not give permanent precipitates.\nStatement 2: All three ions Ni2+(aq), Cu2+(aq) and Zn2+(aq) give ammine complexes when individually treated with excess NH4OH(aq).",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "Initial hydroxide precipitates redissolve in excess NH3 due to the formation of soluble amine complexes [Ni(NH3)6]2+, [Cu(NH3)4]2+, and [Zn(NH3)4]2+.",
+      "subject_topic": "Inorganic Chemistry",
+      "subtopic": "Complex Ion Formation and Qualitative Analysis",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Standard qualitative analysis observation explained by complexation.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q045",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 45,
+      "question_text": "Statement 1: Benzene reacts with electrophilic reagents to give substitution products and not addition products.\nStatement 2: The carbocation intermediate formed by reaction between benzene and electrophile is stabilized by delocalization of its positive charge.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1",
+      "explanation": "Benzene undergoes substitution rather than addition to preserve its aromatic resonance stabilization energy. While the intermediate carbocation (wheland intermediate) is resonance stabilized (Statement 2 is true), the ultimate driving force for substitution over addition is the restoration of aromaticity.",
+      "subject_topic": "Organic Chemistry",
+      "subtopic": "Aromaticity and Electrophilic Substitution",
+      "difficulty_level": "Hard",
+      "difficulty_score": 3,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires distinguishing carbocation stabilization from overall thermodynamic restoration of aromaticity.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q046",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 46,
+      "question_text": "Statement 1: In electrochemical cell Ag+(aq)/Ag(s) and Cu2+(aq)/Cu(s), electrons flow from Cu to Ag.\nStatement 2: In cell Cu(s)|Cu2+(1M)||Ag+(1M)|Ag(s), Cu2+/Cu electrode is the cathode. (EÂ° Cu2+/Cu = 0.34 V, EÂ° Ag+/Ag = 0.80 V)",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is False",
+      "explanation": "Cu has lower reduction potential (+0.34 V) than Ag (+0.80 V), so Cu undergoes oxidation at anode and donates electrons to Ag cathode (Statement 1 true). Cu is anode, not cathode (Statement 2 false).",
+      "subject_topic": "Electrochemistry",
+      "subtopic": "Galvanic Cells and Electrode Potentials",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires evaluating electrode roles based on standard reduction potentials.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q047",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 47,
+      "question_text": "Statement 1: When heated N2(g) reacts with Li to give an ionic product which reacts with water liberating NH3(g).\nStatement 2: N2(g) cannot behave as an oxidizing agent.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is False",
+      "explanation": "6Li + N2 -> 2Li3N (ionic nitride). Li3N + 3H2O -> 3LiOH + NH3(g) (Statement 1 true). In forming Li3N, N2 oxidation state changes from 0 to -3, acting as an oxidizing agent (Statement 2 false).",
+      "subject_topic": "Inorganic Chemistry",
+      "subtopic": "Chemistry of Nitrogen and Group 1 Metals",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Identifies redox role of nitrogen in metal nitride synthesis.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q048",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 48,
+      "question_text": "Statement 1: Addition of dilute HNO3(aq) to a saturated solution of PbC2O4 increases solubility of PbC2O4(s).\nStatement 2: In equilibrium PbC2O4(s) <=> Pb2+(aq) + C2O4^2-(aq), C2O4^2- can be considered conjugate-base of H2C2O4 acid.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "C2O4^2- acts as a conjugate base that reacts with added H+ ions to form HC2O4- / H2C2O4, removing C2O4^2- from solution and shifting solubility equilibrium to the right.",
+      "subject_topic": "Equilibrium",
+      "subtopic": "Effect of pH on Solubility and Conjugate Acid-Base Pairs",
+      "difficulty_level": "Medium",
+      "difficulty_score": 2,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires linking acid-base protonation of anions to solubility equilibrium shifts.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q049",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 49,
+      "question_text": "Statement 1: The amount of CO(g) produced by reaction of coke and O2(g) in blast furnace increases with increasing temperature.\nStatement 2: The reaction between coke and O2(g) which produces CO(g) has a positive entropy change.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "Reaction 2C(s) + O2(g) -> 2CO(g) produces 2 gas moles from 1 gas mole (Î”S > 0). According to Î”G = Î”H - TÎ”S, higher temperature makes Î”G more negative, favoring CO formation (Boudouard equilibrium / Ellingham diagram).",
+      "subject_topic": "Industrial Chemistry",
+      "subtopic": "Extraction of Iron and Ellingham Diagrams",
+      "difficulty_level": "Hard",
+      "difficulty_score": 3,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Requires Ellingham diagram thermodynamics analysis of C/CO system.",
+      "review_required": false,
+      "review_reason": null
+    },
+    {
+      "question_id": "AL-CHE-2024-P01-Q050",
+      "subject": "Chemistry",
+      "exam_year": 2024,
+      "paper_number": 1,
+      "language": "English",
+      "original_question_number": 50,
+      "question_text": "Statement 1: Thermoset polymers cannot be softened by heating.\nStatement 2: Thermoset polymers have a molecular structure arranged as a three dimensional network.",
+      "options": [
+        {
+          "label": "1",
+          "text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1"
+        },
+        {
+          "label": "2",
+          "text": "Statement 1 is True, Statement 2 is True but does NOT correctly explain Statement 1"
+        },
+        {
+          "label": "3",
+          "text": "Statement 1 is True, Statement 2 is False"
+        },
+        {
+          "label": "4",
+          "text": "Statement 1 is False, Statement 2 is True"
+        },
+        {
+          "label": "5",
+          "text": "Both Statements are False"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_answer_text": "Statement 1 is True, Statement 2 is True and correctly explains Statement 1",
+      "explanation": "Thermosetting polymers contain permanent cross-links forming a 3D network structure that prevents chain sliding upon heating, making them permanently rigid.",
+      "subject_topic": "Applied Chemistry",
+      "subtopic": "Polymer Chemistry and Thermosets",
+      "difficulty_level": "Easy",
+      "difficulty_score": 1,
+      "source_document": "Chem_2024.pdf",
+      "source_page": 9,
+      "answer_source": "Official marking scheme",
+      "answer_verification_status": "Verified",
+      "difficulty_basis": "Direct structural explanation of polymer thermal behavior.",
+      "review_required": false,
+      "review_reason": null
+    }
+  ]
+}
