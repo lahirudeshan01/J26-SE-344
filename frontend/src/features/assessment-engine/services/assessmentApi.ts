@@ -1,5 +1,6 @@
-﻿import type {
+import type {
     AssessmentQuestion,
+    AssessmentPaperSummary,
     AssessmentResults,
     AssessmentSession,
     AssessmentSubjectSummary,
@@ -66,6 +67,15 @@ export async function fetchSubjectTopics(
     );
 }
 
+export async function fetchSubjectPapers(
+    subjectId: string,
+): Promise<AssessmentPaperSummary[]> {
+    const result = await apiRequest<{
+        papers: AssessmentPaperSummary[];
+    }>(`/api/assessment-engine/subjects/${encodeURIComponent(subjectId)}/papers`);
+    return result.papers || [];
+}
+
 export async function createAssessmentSession(payload: {
     studentId: string;
     subject: string;
@@ -73,6 +83,9 @@ export async function createAssessmentSession(payload: {
     consentVersion: string;
     mainTopicId?: string | null;
     subtopicId?: string | null;
+    paperId?: string | null;
+    practiceMode?: 'adaptive' | 'paper' | 'subtopic';
+    durationMinutes?: number;
 }): Promise<AssessmentSession> {
     const result = await apiRequest<{
         session: AssessmentSession;
@@ -92,6 +105,14 @@ export async function fetchNextQuestion(sessionId: string): Promise<{
     return apiRequest(
         `/api/assessment-engine/questions/next?sessionId=${encodeURIComponent(sessionId)}`,
     );
+}
+
+export async function completeAssessmentSession(sessionId: string): Promise<AssessmentSession> {
+    const result = await apiRequest<{ session: AssessmentSession }>(
+        `/api/assessment-engine/sessions/${encodeURIComponent(sessionId)}/complete`,
+        { method: 'POST' },
+    );
+    return result.session;
 }
 
 export async function submitAssessmentAttempt(payload: {
@@ -144,6 +165,4 @@ export async function fetchRevisionPriorities(
         `/api/revision/priorities/${encodeURIComponent(studentId)}`,
     );
 }
-
-
 

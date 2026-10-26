@@ -1,4 +1,4 @@
-﻿import type { LucideIcon } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 export type ResolvedTheme = 'light' | 'dark';
@@ -78,6 +78,14 @@ export interface AssessmentSubjectSummary {
     [key: string]: unknown;
 }
 
+export interface AssessmentPaperSummary {
+    paperId: string;
+    subject: Subject;
+    examYear: number;
+    paperNumber: number;
+    questionCount: number;
+}
+
 export interface QuestionOption {
     id?: string;
     value?: string;
@@ -112,6 +120,8 @@ export interface AssessmentSession {
     status?: string;
     askedQuestionIds: string[];
     targetDifficulty: number;
+    paperId?: string | null;
+    practiceMode?: 'adaptive' | 'paper' | 'subtopic';
     [key: string]: unknown;
 }
 
@@ -180,10 +190,17 @@ export interface GradePredictionResponse {
     modelType?: string;
     status?: string;
     message?: string;
+    benchmarkDataset?: string;
+    baseline?: {
+        predictedMarks?: number | null;
+        mae?: number | null;
+        rmse?: number | null;
+    } | null;
     metrics?: {
         mae?: number | null;
         rmse?: number | null;
         r2?: number | null;
+        samples?: number | null;
     } | null;
     ruleBasedReadiness?: {
         readinessBadge?: string;
@@ -205,4 +222,3 @@ export interface RevisionPriority {
     recommendedAction?: string;
     [key: string]: unknown;
 }
-
